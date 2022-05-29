@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp4_rpg.Hello2Controller">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #C8E9EF;">
+         <top>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="vie" alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+                  <Label fx:id="armor" alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+                  <Label fx:id="attk" alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+                  <Label fx:id="conso" alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+                  <Label fx:id="amo" alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+               </children>
+            </HBox>
+         </top>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="vieperso" mnemonicParsing="false" onAction="#onviepersoButtonClick" prefHeight="30.0" prefWidth="100.0" text="Vie" />
+                  <Button fx:id="armorperso" mnemonicParsing="false" onAction="#onarmorpersoButtonClick" prefHeight="30.0" prefWidth="100.0" text="Armure" />
+                  <Button fx:id="amoperso" mnemonicParsing="false" onAction="#onamopersoButtonClick" prefHeight="30.0" prefWidth="100.0" text="Mana/Flèches" />
+                  <Button fx:id="consoUp" mnemonicParsing="false" onAction="#onconsoUpButtonClick" prefHeight="30.0" prefWidth="100.0" text="Effi conso" />
+                  <Button fx:id="consoNum" mnemonicParsing="false" onAction="#onconsoNumButtonClick" prefHeight="30.0" prefWidth="100.0" text="Nombre conso" />
+               </children>
+            </HBox>
+         </bottom>
+         <center>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <ImageView fx:id="Warriorimage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../image/warior.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="Hunterimage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../image/hunter.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="Mageimage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../image/mage.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="Healerimage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../image/healer.png" />
+                           </image></ImageView>
+                    </children>
+            </HBox>
+         </center></BorderPane>
+   </children>
+</AnchorPane>

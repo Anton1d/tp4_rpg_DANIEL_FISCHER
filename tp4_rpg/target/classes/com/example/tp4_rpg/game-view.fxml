@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="803.0" style="-fx-pref-width: 800;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp4_rpg.HelloController">
+   <children>
+      <BorderPane layoutY="1.0" prefHeight="558.0" prefWidth="800.0">
+         <left>
+            <VBox alignment="CENTER" prefHeight="575.0" prefWidth="104.0" style="-fx-background-color: #C8E9EF;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="team1" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team2" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team3" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team4" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team5" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team6" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team7" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="team8" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+               </children></VBox>
+         </left>
+         <right>
+            <VBox alignment="CENTER" prefHeight="575.0" prefWidth="104.0" style="-fx-background-color: #C8E9EF;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="enemy1" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy2" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy3" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy4" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy5" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy6" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy7" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+                  <Label fx:id="enemy8" alignment="CENTER" prefHeight="70.0" prefWidth="104.0" style="-fx-border-color: #000000;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Roboto Light" size="9.0" />
+                     </font></Label>
+               </children></VBox>
+         </right>
+         <center>
+            <ImageView fitHeight="477.0" fitWidth="599.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../image/fond%20ecran%20jeu%20rpg.png" />
+               </image></ImageView>
+         </center>
+         <top>
+            <Label fx:id="combatText" alignment="CENTER" prefHeight="11.0" prefWidth="325.0" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Roboto Light" size="20.0" />
+               </font></Label>
+         </top>
+         <bottom>
+            <Button fx:id="CombatButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onCombatButtonClick" prefHeight="26.0" prefWidth="600.0" text="| Commencer le combat |" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
