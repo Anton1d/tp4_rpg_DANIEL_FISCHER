@@ -14,7 +14,7 @@ Lucas Fischer et Antonin Daniel vous souhaite un bonne partie.
 BONNE CHANCE
 
 Test unitaire:
-Le fichier TUnitaire.java regroupe 2 tests différents. Le premier la création de l'équipe et le deuxième la combat. Dans le combat, il y a deux tests différents.
+Le fichier TUnitaire.java regroupe 2 tests différents. Le premier la création de l'équipe et le deuxième le combat entre les heros et les enemies. Dans le combat, il y a deux tests différents.
 
 EN vous remerciant d'avoir joué.
 
